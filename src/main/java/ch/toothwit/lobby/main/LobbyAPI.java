@@ -22,6 +22,10 @@ public class LobbyAPI {
 		get().subscribers.add(eventHandler); 
 	}
 	
+	public static void test(){
+		Lobby.get().reload();
+	}
+	
 	public static String getBungeeLobbyServer(){
 		return Settings.get().getBungeeLobbyServer(); 
 	}
