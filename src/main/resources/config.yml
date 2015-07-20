@@ -1,0 +1,6 @@
+lobby: 
+  location: world 1 2 3
+  countdown: 30
+  minPlayers: 2
+  maxPlayers: 16
+  bungeeServer: lobby

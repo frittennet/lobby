@@ -1,0 +1,19 @@
+name: Lobby
+main: de.fredo121.lobby.main.Lobby
+version: 0.1
+author: fredo121
+description: Lobby Plugin using Spigot API 
+depend: [BossBarAPI]
+
+commands:
+  gamelobby:
+    description: Lobby Base Command
+    permission: gamelobby.use
+    
+permissions:
+  gamelobby.admin:
+    description: Use Lobby Admin Commands
+    default: op
+  gamelobby.start:
+    description: Use lobby starto Command 
+    default: op
