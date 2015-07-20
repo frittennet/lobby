@@ -1,4 +1,4 @@
-package de.fredo121.lobby.main;
+package ch.toothwit.lobby.main;
 
 import java.util.List;
 

@@ -1,15 +1,14 @@
-package de.fredo121.lobby.main;
+package ch.toothwit.lobby.main;
 
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
 
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable; 
-import org.bukkit.Bukkit;  
+import org.bukkit.Bukkit;
+import org.inventivetalent.bossbar.BossBarAPI;
 
-import de.fredo121.lobby.main.Lobby; 
-
-import org.inventivetalent.bossbar.BossBarAPI; 
+import ch.toothwit.lobby.main.Lobby; 
 
 public class Util { 
 	public static void SendToBungeeServer(final String server, final Player player) { 

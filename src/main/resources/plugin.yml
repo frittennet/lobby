@@ -1,5 +1,5 @@
 name: Lobby
-main: de.fredo121.lobby.main.Lobby
+main: ch.toothwit.lobby.main.Lobby
 version: 0.1
 author: fredo121
 description: Lobby Plugin using Spigot API 

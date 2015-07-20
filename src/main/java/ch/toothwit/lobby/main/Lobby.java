@@ -1,4 +1,4 @@
-package de.fredo121.lobby.main;
+package ch.toothwit.lobby.main;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,9 +8,12 @@ import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitRunnable;
 import org.inventivetalent.bossbar.BossBarAPI;
+
+import ch.toothwit.lobby.events.PlayerEventListener;
+
 import org.bukkit.Bukkit; 
-import org.bukkit.GameMode; 
-import de.fredo121.lobby.events.PlayerEventListener;
+import org.bukkit.GameMode;
+
 import net.md_5.bungee.api.ChatColor;
 
 public class Lobby extends JavaPlugin {

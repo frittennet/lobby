@@ -1,4 +1,4 @@
-package de.fredo121.lobby.events;
+package ch.toothwit.lobby.events;
 
 import org.bukkit.ChatColor;
 
@@ -12,11 +12,10 @@ import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.block.BlockPlaceEvent; 
 import org.bukkit.event.entity.EntityDamageEvent; 
 import org.bukkit.event.weather.WeatherChangeEvent; 
-import org.spigotmc.event.player.PlayerSpawnLocationEvent; 
+import org.spigotmc.event.player.PlayerSpawnLocationEvent;
 
-
-import de.fredo121.lobby.main.Lobby;
-import de.fredo121.lobby.main.Settings;
+import ch.toothwit.lobby.main.Lobby;
+import ch.toothwit.lobby.main.Settings;
 
 public class PlayerEventListener implements Listener {
 	@EventHandler

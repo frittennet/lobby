@@ -1,10 +1,10 @@
-package de.fredo121.lobby.main;
+package ch.toothwit.lobby.main;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import de.fredo121.lobby.main.Settings; 
-import de.fredo121.lobby.main.Lobby; 
+import ch.toothwit.lobby.main.Lobby;
+import ch.toothwit.lobby.main.Settings; 
 
 public class LobbyAPI {
 	private static LobbyAPI instance; 

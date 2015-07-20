@@ -1,4 +1,4 @@
-package de.fredo121.lobby.main;
+package ch.toothwit.lobby.main;
 
 import java.io.File;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.configuration.file.FileConfiguration;
 
-import de.fredo121.lobby.main.Lobby; 
+import ch.toothwit.lobby.main.Lobby; 
 
 public class Settings {
 	private static Settings instance;
