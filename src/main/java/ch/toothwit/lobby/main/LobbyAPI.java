@@ -5,6 +5,7 @@ import java.util.List;
 
 import ch.toothwit.lobby.main.Lobby;
 import ch.toothwit.lobby.main.Settings; 
+import ch.toothwit.lobby.main.LobbyEventHandler; 
 
 public class LobbyAPI {
 	private static LobbyAPI instance; 
