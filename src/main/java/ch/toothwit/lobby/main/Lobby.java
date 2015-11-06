@@ -151,7 +151,7 @@ public class Lobby extends JavaPlugin {
 		}; 
 		startgameTask.runTaskLater(instance, currentSeconds*20L); 
 	}
-
+     
 	private void hideCountdown() { 
 		Bukkit.getLogger().info("Stopped Countdown"); 
 		if(startgameTask != null){      

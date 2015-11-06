@@ -7,10 +7,9 @@ import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable; 
 import org.bukkit.Bukkit;
 
-
 import ch.toothwit.lobby.main.Lobby; 
 
-import me.confuser.barapi.BarAPI; 
+import org.inventivetalent.bossbar.BossBarAPI; 
 
 public class Util { 
 	public static void SendToBungeeServer(final String server, final Player player) { 
@@ -49,8 +48,9 @@ public class Util {
 					Util.hideCountdown(); 
 				}
 				for(Player player : Bukkit.getOnlinePlayers()){ 
-					float precentage =  (((float)(startSeconds-count)/(float)startSeconds)*(float)100);                       
-					BarAPI.setHealth(player, precentage); 
+					float precentage =  (((float)(startSeconds-count)/(float)startSeconds)*(float)100);         
+					
+					BossBarAPI.setHealth(player, precentage); 
 					player.setLevel(startSeconds-count); 
 				} 
 			}
@@ -61,7 +61,7 @@ public class Util {
 	public static void displayMessage(String message){ 
 		hideCountdown(); 
 		for(Player player : Bukkit.getServer().getOnlinePlayers()){ 
-			BarAPI.setMessage(player, message); 
+			BossBarAPI.setMessage(player, message); 
 		} 
 	} 
 	
@@ -71,8 +71,8 @@ public class Util {
 		}
 		for(Player player : Bukkit.getServer().getOnlinePlayers()){
 			player.setLevel(0); 
-			if(BarAPI.hasBar(player)){ 
-				BarAPI.removeBar(player); 
+			if(BossBarAPI.hasBar(player)){ 
+				BossBarAPI.removeBar(player); 
 			}
 		}
 	} 
