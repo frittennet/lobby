@@ -19,7 +19,7 @@
   <repositories>
     <repository>
       <id>spigot-repo</id>
-      <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
+      <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
     </repository>
 	<repository>
 	  <id>confuser-repo</id>
@@ -30,12 +30,13 @@
     <dependency>
       <groupId>org.spigotmc</groupId>
       <artifactId>spigot-api</artifactId>
-      <version>1.8.7-R0.1-SNAPSHOT</version>
+      <version>1.9.2-R0.1-SNAPSHOT</version>
+      <scope>provided</scope>
     </dependency> 
     <dependency>
     	<groupId>org.inventivetalent</groupId>
     	<artifactId>bossbar.BossBarAPI</artifactId>
-    	<version>1.0.6</version>
+    	<version>2.3.8</version>
     	<scope>system</scope>
     	<systemPath>${project.basedir}/lib/BossBarAPI.jar</systemPath>
 	</dependency>
